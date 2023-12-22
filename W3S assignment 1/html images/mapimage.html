@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    .button {
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      background-color: #04AA6D;
+    }
+    
+    .button1 { float: left;} 
+    .button2 { float: right;}
+    </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Image Map</title>
+  </head>
+  <body>
+    <img src="/map.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+<br>
+    <a href="images.html"><button class="button button1">< Previous</button></a>
+    <a href="backgroundimage.html"><button class="button button2">Next ></button></a>
+    
+    </p>
+  </body>
+</html>
